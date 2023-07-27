@@ -1,0 +1,29 @@
+.home {
+    padding: 0 8rem;
+    min-height: 80vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 700px) {
+    .home {
+        padding: 0 2rem;
+    }
+}
+
+.home>h1 {
+    font-size: 5.5rem;
+    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.home>p{
+    text-align: justify;
+}

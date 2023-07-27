@@ -1,0 +1,35 @@
+.sancochos {
+    padding: 0 8rem;
+    min-height: 80vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 770px) {
+    .sancochos {
+        padding: 0 2rem;
+    }
+}
+
+.sancochos>h2 {
+    font-size: 1, 7rem;
+    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sancochos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 8rem;
+}
+
+@media (max-width: 770px) {
+    .sancochos-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
